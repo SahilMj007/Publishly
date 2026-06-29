@@ -15,7 +15,7 @@ const Home = () => {
 
   if (posts.length === 0) {
     useEffect(() => {
-      document.title = "Home | SmartAlign";
+      document.title = "Home | Publishly";
     }, []);
     return (
       <section className="min-h-[80vh] bg-slate-950 py-20">
